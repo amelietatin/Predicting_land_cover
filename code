@@ -1,0 +1,51 @@
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mindex c0710d6..f881ef2 100644[m
+[1m--- a/.gitignore[m
+[1m+++ b/.gitignore[m
+[36m@@ -20,3 +20,39 @@[m [mrad.json[m
+ *.flf[m
+ #Test results file[m
+ TestResults.xmlraw_data/[m
+[32m+[m
+[32m+[m[32m.env[m
+[32m+[m
+[32m+[m[32m# OS generated files #[m
+[32m+[m[32m######################[m
+[32m+[m[32m.DS_Store[m
+[32m+[m[32m__MACOSX[m
+[32m+[m[32m# Jupiter Notebook #[m
+[32m+[m[32m.pytest_cache[m
+[32m+[m[32m__pycache__[m
+[32m+[m[32m*checkpoint.ipynb[m
+[32m+[m[32m*.ipynb_checkpoints[m
+[32m+[m
+[32m+[m[32m# inteliJ #[m
+[32m+[m[32m.idea[m
+[32m+[m[32m*.gz[m
+[32m+[m[32m*PKG-INFO[m
+[32m+[m[32m*.egg-info[m
+[32m+[m[32m*.csv[m
+[32m+[m[32m05-ML/**/*.txt[m
+[32m+[m[32m06-Deep-Learning/**/*.txt[m
+[32m+[m[32m*.zip[m
+[32m+[m[32mmlruns[m
+[32m+[m[32m*.sqlite[m
+[32m+[m[32m# IDE #[m
+[32m+[m[32m*.vscode[m
+[32m+[m
+[32m+[m[32m# Specific Challenges[m
+[32m+[m[32m06-Deep-Learning/03-Convolutional-Neural-Networks/04-Transfer-Learning/flowers/[m
+[32m+[m
+[32m+[m[32m# Challengify - test challengification files[m
+[32m+[m[32m*_challengify*[m
+[32m+[m
+[32m+[m
+[32m+[m[32m# ignore raw_data folder[m
+[32m+[m[32mraw_data[m
+[1mdiff --git a/.python-version b/.python-version[m
+[1mindex e9dbe1f..2e5caab 100644[m
+[1m--- a/.python-version[m
+[1m+++ b/.python-version[m
+[36m@@ -1 +1 @@[m
+[31m-Predicting_land_cover[m
+[32m+[m[32mpredicting_land_cover[m
