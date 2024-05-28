@@ -49,3 +49,5 @@ uvicorn
 # tests
 httpx
 pytest-asyncio
+
+netCDF4
